@@ -1,4 +1,4 @@
-$( document ).ready(function(){
+$(document).ready(function(){
     var randomN=Math.floor(Math.random()*101+19)
     $('#randomnumber').text(randomN);
     var n1= Math.floor(Math.random()*12+1)
@@ -33,7 +33,7 @@ $( document ).ready(function(){
     $('#numberLosses').text(losses);
     reset()
   }
-    $('#one').on ('click', function(){
+    $('#one').on('click', function(){
       userTotal = userTotal + n1;
       console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
@@ -44,7 +44,7 @@ $( document ).ready(function(){
             loserGame();
           }   
     })  
-    $('#two').on ('click', function(){
+    $('#two').on('click', function(){
       userTotal = userTotal + n2;
       console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
@@ -55,7 +55,7 @@ $( document ).ready(function(){
             loserGame();
           } 
     })  
-    $('#three').on ('click', function(){
+    $('#three').on('click', function(){
       userTotal = userTotal + n3;
       console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal);
@@ -66,7 +66,7 @@ $( document ).ready(function(){
             loserGame();
           } 
     })  
-    $('#four').on ('click', function(){
+    $('#four').on('click', function(){
       userTotal = userTotal + n4;
       console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 

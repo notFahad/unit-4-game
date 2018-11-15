@@ -28,7 +28,7 @@ ul {
 	text-indent: 20px;
 }
 div#header, div.gems{
-	background-color: #4F5563;
+	background-color: #444A58;
 }
 div#header, div.instructions{
 	width: 50%;
@@ -45,19 +45,27 @@ div#header, div.instructions{
 .gems{
 	clear: both;
 }
-.gemImage{
+.gemIcon{
 	height: 60px;
 	margin: 10px;
 }
-#blue{
-	color: #3092c7;
+#one:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
-#green{
-	color: #00aa59;
+#two:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
-#red{
-	color: #ec4b5f;
+#three:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
 }
-#yellow{
-	color: #ffc225;
-}
+#four:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
