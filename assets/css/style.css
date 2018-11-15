@@ -1,5 +1,8 @@
 body{
-	background-image: url("../images/background.png")
+	background: grey;
+	width: 100%;
+	margin-left: 25%;
+
 }
 div{
 	background-color: white;
@@ -24,14 +27,12 @@ ul {
 	list-style: disc inside;
 	text-indent: 20px;
 }
-/* Specfic Elements*/
-div.header, div.gems{
-	background-color: #e0e0eb;
+div#header, div.gems{
+	background-color: #4F5563;
 }
-div.header, div.instructions{
+div#header, div.instructions{
 	width: 50%;
 }
-/* Classes */
 .numberToMatch, .winsAndLosses{
 	float: left;
 	width: 15%;
@@ -48,7 +49,6 @@ div.header, div.instructions{
 	height: 60px;
 	margin: 10px;
 }
-/* IDs */
 #blue{
 	color: #3092c7;
 }
